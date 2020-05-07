@@ -1,19 +1,21 @@
 <!DOCTYPE html>
+
+
 <html lang="en" dir="ltr">
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <body>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Derek Mouton's Portfolio Site</title>
 </head>
+<body>
     <header>
-        <div>
-            <img src="img/ACDlogox1.png" alt="Derek Mouton Logo" width="128" height="96">
+        <div class="container">
+            <img src="img/ACDlogo3.jpg" alt="Derek Mouton Logo" width="128" height="96">
             <nav>
               <h2>Derek's Portfolio Page</h2>
-              <ul>
+              <ul class="navigation">
                 <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -22,8 +24,8 @@
         </div>
     </header>
     <main>
-        <div>
-            <div>
+        <div id="hero">
+            <div class="container">
               <picture>
                     <source srcset="https://via.placeholder.com/80" media="(max-width:767px)">
                     <img src="img/headshot.JPG" alt="image">
@@ -32,13 +34,14 @@
                 <span> "UX Designer"</span>
             </div>
         </div>
-        <div>
-            <div>
+        <div id="Work">
+            <div class="container">
                 <h2>Projects</h2>
+                <div class="row">
                   <h3>Deck Mate</h3>
                   <p>Language learning app</p>
                   <p>Tools: Sketch, Invision </p>
-                  <a href="Deckmate.html">View Project</a>
+                  <a href="Deckmate.html" class="button">View Project</a>
                 <div>
                     <div>
                         <picture>
@@ -49,7 +52,7 @@
                     <h3>Vela</h3>
                     <p>Water sports and weather app</p>
                     <p>Tools: Sketch, Invision </p>
-                    <a href="vela.html">View Project</a>
+                    <a href="vela.html" class="button">View Project</a>
                 </div>
                 <div>
                     <picture>
@@ -61,10 +64,10 @@
         </div>
     </main>
     <footer>
-        <div>
+        <div class="container">
             <h2>Get in touch</h2>
-            <a href="#">Email Me</a>
-            <div>
+            <a href="#" class="button">Email Me</a>
+            <div id= "contact">
                 <a href="https://www.linkedin.com/in/derek-mouton-39913021/" target="_blank">
                     <img src="img/iconmonstr-linkedin-3.png" alt="Image">
                 </a>
@@ -72,7 +75,7 @@
                     <img src="img/77-behance-512.png" alt="Image">
                 </a>
                 <a href="https://apexcreativedesign.com/" target="_blank">
-                    <img src="img/ACDlogox1.png" alt="Image">
+                    <img src="img/ACDlogo3.jpg" alt="Image" width="128" height="96">
                 </a>
             </div>
             <p>Copyright Derek Mouton 2020</p>
